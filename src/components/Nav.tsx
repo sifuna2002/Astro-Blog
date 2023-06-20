@@ -82,7 +82,7 @@ export default function Nav() {
         className="flex gap-12"
       >
         <img src={avatar} alt="Hua profile picture" />
-        <motion.div className="hidden items-center cursor-pointer text-gray-800 gap-12 xl:flex">
+        <motion.div className="hidden items-center gap-12 xl:flex">
           <img src={dribble} alt="Dribble Account" />
           <img src={twitter} alt="Twitter Account" />
           <img src={youtube} alt="Youtube Channel" />
@@ -91,7 +91,7 @@ export default function Nav() {
       {/* Title */}
 
       <h1 className="text-lg font-bold">
-        <a href="/">Sifuna.</a>
+        <a href="/">SIFUNA</a>
       </h1>
 
       {/* Nav Items animating in  */}

@@ -1,11 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import MainLayout from "../layouts/main-layout.astro"
+import Intro from "../components/Intro.astro"
+import Gallery from "../components/Gallery.astro"
+import Testimonials from "../components/Testimonials.astro"
 ---
 
-<Layout title="Home">
-	<main class="ml-4">
-		hello
-	</main>
-</Layout>
-
+<MainLayout>
+  <Intro />
+  <Gallery />
+</MainLayout>
